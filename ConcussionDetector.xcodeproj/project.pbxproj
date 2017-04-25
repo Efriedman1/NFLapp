@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315758381EAAB3570019EC0B /* RedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315758371EAAB3570019EC0B /* RedVC.swift */; };
+		3198F1531EA5884C009AAEE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F1521EA5884C009AAEE0 /* AppDelegate.swift */; };
+		3198F1551EA5884C009AAEE0 /* TrafficVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198F1541EA5884C009AAEE0 /* TrafficVC.swift */; };
+		3198F1581EA5884C009AAEE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3198F1561EA5884C009AAEE0 /* Main.storyboard */; };
+		3198F15B1EA5884C009AAEE0 /* ConcussionDetector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3198F1591EA5884C009AAEE0 /* ConcussionDetector.xcdatamodeld */; };
+		3198F15D1EA5884C009AAEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3198F15C1EA5884C009AAEE0 /* Assets.xcassets */; };
+		3198F1601EA5884C009AAEE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3198F15E1EA5884C009AAEE0 /* LaunchScreen.storyboard */; };
+		31C3D9D91EAEEDC200C5C0F9 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3D9D81EAEEDC200C5C0F9 /* Variables.swift */; };
+		31C3D9DB1EAEF75F00C5C0F9 /* BrightnessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3D9DA1EAEF75F00C5C0F9 /* BrightnessVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		315758371EAAB3570019EC0B /* RedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedVC.swift; sourceTree = "<group>"; };
+		3198F14F1EA5884C009AAEE0 /* ConcussionDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcussionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3198F1521EA5884C009AAEE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3198F1541EA5884C009AAEE0 /* TrafficVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficVC.swift; sourceTree = "<group>"; };
+		3198F1571EA5884C009AAEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3198F15A1EA5884C009AAEE0 /* ConcussionDetector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConcussionDetector.xcdatamodel; sourceTree = "<group>"; };
+		3198F15C1EA5884C009AAEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3198F15F1EA5884C009AAEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3198F1611EA5884C009AAEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C3D9D81EAEEDC200C5C0F9 /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		31C3D9DA1EAEF75F00C5C0F9 /* BrightnessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightnessVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3198F14C1EA5884B009AAEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3198F1461EA5884B009AAEE0 = {
+			isa = PBXGroup;
+			children = (
+				3198F1511EA5884C009AAEE0 /* ConcussionDetector */,
+				3198F1501EA5884C009AAEE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3198F1501EA5884C009AAEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3198F14F1EA5884C009AAEE0 /* ConcussionDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3198F1511EA5884C009AAEE0 /* ConcussionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				31C3D9D81EAEEDC200C5C0F9 /* Variables.swift */,
+				3198F1521EA5884C009AAEE0 /* AppDelegate.swift */,
+				3198F1541EA5884C009AAEE0 /* TrafficVC.swift */,
+				3198F1561EA5884C009AAEE0 /* Main.storyboard */,
+				3198F15C1EA5884C009AAEE0 /* Assets.xcassets */,
+				3198F15E1EA5884C009AAEE0 /* LaunchScreen.storyboard */,
+				3198F1611EA5884C009AAEE0 /* Info.plist */,
+				3198F1591EA5884C009AAEE0 /* ConcussionDetector.xcdatamodeld */,
+				315758371EAAB3570019EC0B /* RedVC.swift */,
+				31C3D9DA1EAEF75F00C5C0F9 /* BrightnessVC.swift */,
+			);
+			path = ConcussionDetector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3198F14E1EA5884B009AAEE0 /* ConcussionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3198F1641EA5884C009AAEE0 /* Build configuration list for PBXNativeTarget "ConcussionDetector" */;
+			buildPhases = (
+				3198F14B1EA5884B009AAEE0 /* Sources */,
+				3198F14C1EA5884B009AAEE0 /* Frameworks */,
+				3198F14D1EA5884B009AAEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcussionDetector;
+			productName = ConcussionDetector;
+			productReference = 3198F14F1EA5884C009AAEE0 /* ConcussionDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3198F1471EA5884B009AAEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nikhil;
+				TargetAttributes = {
+					3198F14E1EA5884B009AAEE0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8AEAWST845;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3198F14A1EA5884B009AAEE0 /* Build configuration list for PBXProject "ConcussionDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3198F1461EA5884B009AAEE0;
+			productRefGroup = 3198F1501EA5884C009AAEE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3198F14E1EA5884B009AAEE0 /* ConcussionDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3198F14D1EA5884B009AAEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198F1601EA5884C009AAEE0 /* LaunchScreen.storyboard in Resources */,
+				3198F15D1EA5884C009AAEE0 /* Assets.xcassets in Resources */,
+				3198F1581EA5884C009AAEE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3198F14B1EA5884B009AAEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198F15B1EA5884C009AAEE0 /* ConcussionDetector.xcdatamodeld in Sources */,
+				3198F1551EA5884C009AAEE0 /* TrafficVC.swift in Sources */,
+				3198F1531EA5884C009AAEE0 /* AppDelegate.swift in Sources */,
+				31C3D9D91EAEEDC200C5C0F9 /* Variables.swift in Sources */,
+				31C3D9DB1EAEF75F00C5C0F9 /* BrightnessVC.swift in Sources */,
+				315758381EAAB3570019EC0B /* RedVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3198F1561EA5884C009AAEE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3198F1571EA5884C009AAEE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3198F15E1EA5884C009AAEE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3198F15F1EA5884C009AAEE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3198F1621EA5884C009AAEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3198F1631EA5884C009AAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3198F1651EA5884C009AAEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8AEAWST845;
+				INFOPLIST_FILE = ConcussionDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheBoss.ConcussionDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3198F1661EA5884C009AAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8AEAWST845;
+				INFOPLIST_FILE = ConcussionDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheBoss.ConcussionDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3198F14A1EA5884B009AAEE0 /* Build configuration list for PBXProject "ConcussionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198F1621EA5884C009AAEE0 /* Debug */,
+				3198F1631EA5884C009AAEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3198F1641EA5884C009AAEE0 /* Build configuration list for PBXNativeTarget "ConcussionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3198F1651EA5884C009AAEE0 /* Debug */,
+				3198F1661EA5884C009AAEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3198F1591EA5884C009AAEE0 /* ConcussionDetector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3198F15A1EA5884C009AAEE0 /* ConcussionDetector.xcdatamodel */,
+			);
+			currentVersion = 3198F15A1EA5884C009AAEE0 /* ConcussionDetector.xcdatamodel */;
+			path = ConcussionDetector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3198F1471EA5884B009AAEE0 /* Project object */;
+}
